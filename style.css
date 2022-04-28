@@ -1,0 +1,31 @@
+body {
+    background:#202020;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.container{
+    width:500px;
+    height:500px;
+    border-radius:100%;
+    background:linear-gradient(45deg,blueviolet,tomato,gold);
+    position:absolute;
+    top:30%;
+    display: flex;
+    align-items: center;
+    justify-content:center; 
+    overflow:hidden;
+    transition:background 3s;
+}
+.inside{
+    width:470px;
+    height:470px;
+    border-radius:100%;
+    background:#202020;
+    display: flex;
+    align-items: center;
+    justify-content:center; 
+    color:lavender;
+    font-size:10em;
+    font-weight:bolder;
+}
